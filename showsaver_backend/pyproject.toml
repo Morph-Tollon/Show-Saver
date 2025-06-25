@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "showsaver"
+version = "0.0.1"
+description = "A peice of software for those who for sure definilty want to know that their show files will be somewhere safe."
+authors = ["Morph Tollon <89318965+Morph-Tollon@users.noreply.github.com>"]
+license = "GNU GENERAL PUBLIC LICENSE Version 3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
