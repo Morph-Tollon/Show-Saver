@@ -1,0 +1,16 @@
+services:
+  ## Remote git server for local backups
+  git:
+    image: docker.gitea.com/gitea:1.24.2-rootless
+    restart: always
+    volumes:
+      - ${GITEA_DATA}:/var/lib/gitea
+      - ${GITEA_CONFIG}:/etc/gitea
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - 3000:3000
+      - 2222:2222
+  
+  ## ShowSaver backend host
+  
