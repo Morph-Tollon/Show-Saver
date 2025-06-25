@@ -1,6 +1,6 @@
 # Show Saver!
 
-Show saver is a peice of software for those who want to make sure it is always on site, in multiple places, and secure.
+Show saver is a piece of software for those who want to make sure it is always on site, in multiple places, and secure.
 
 ## The Architecture
 
