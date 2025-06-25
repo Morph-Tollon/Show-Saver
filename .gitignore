@@ -1,19 +1,4 @@
-*.pyc
-
-# Packages
-/dist/*
-
-# Unit test / coverage reports
-.coverage
-.pytest_cache
-
-
-.python-version
-
-
-/docs/site/*
-.mypy_cache
-
-.venv
-/poetry.toml
-poetry.lock
+.vscode/*
+.DS_Store
+.idea/*
+*/.env
