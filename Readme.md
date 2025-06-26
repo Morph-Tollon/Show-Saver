@@ -2,6 +2,9 @@
 
 Show saver is a piece of software for those who want to make sure it is always on site, in multiple places, and secure.
 
+## The Design Philophy
+![A detailed plan of how this peice of software is intended to be used](./Show-Saver.svg)
+
 ## The Architecture
 
 Show saver is built on GIT, and uses it's version control in order to easily clone, recreate and back up revisions of show files.
