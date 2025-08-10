@@ -5,6 +5,7 @@ description = "A peice of software for those who for sure definitely want to kno
 authors = ["Morph Tollon <89318965+Morph-Tollon@users.noreply.github.com>"]
 license = "GNU GENERAL PUBLIC LICENSE Version 3"
 readme = "README.md"
+package-mode=false
 
 [tool.poetry.dependencies]
 python = "^3.9"
